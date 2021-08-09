@@ -1,0 +1,365 @@
+/* my body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 251, 227);
+    text-align: center;
+       
+}
+
+/* navbar */
+.topnav {
+    position: relative;
+    background-color:rgba(16, 90, 2, 0.692);
+    overflow: hidden;
+    border-radius: 5px;
+}
+/* style the links inside the navbar */
+.topnav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 12px;
+}
+/* change the colour of the links on hover */
+.topnav a:hover {
+    background-color: rgb(37, 65, 139);
+    color: white;
+}
+/* add a colout to active/current link */
+.topnav a.active {
+    background-color: rgb(58, 93, 189);
+    color: white;
+}
+/* centered section inside the top navbar */
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* right aligned section inside the top navbar - if used */
+.topnav-right {
+    float: right;
+}
+/* responsive navbar menu - display links on top of each other instead 
+of next to each other (for mobile devices) */
+@media screen and (max-width: 200px) {
+    .topnav a, .topnav-right {
+        float: none;
+        display: block;
+    }
+    .topnav-centered a {
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+
+/* my logo */
+.logo {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.logo .img {
+    display: inline-block;
+}
+@media only screen and (min-width: 600px) {
+    [class="logo"] {
+        width: 640px;
+    }
+}
+
+
+.footer {
+    text-align: center;
+    
+    margin-bottom: 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.box {
+    display: block;
+    place-items: center;
+    width: 500px;
+    margin: auto;
+    background-color:rgb(255, 251, 227);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 0;
+}
+@media only screen and (max-width: 700px) {
+    [class="box"] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    [class="box"] {
+        font-size: 12px;
+    }
+}
+
+
+.footer2 {
+    position: sticky;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    
+}
+
+
+.sticky {
+    background-color: rgba(16, 90, 2, 0.692);
+    border-radius: 5px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 3px;
+    top: 0;       
+}
+@media only screen and (min-width: 600px) {
+    [class="sticky"] {
+        font-size: 18px;
+    }
+}
+
+
+.band {
+    background-color: rgba(16, 90, 2, 0.692);
+    height: 2px;
+    width: 200px;
+    border-radius: 2px;
+    margin: auto;
+    top: 2px;       
+}
+
+
+.band2 {
+    background-color: rgba(16, 90, 2, 0.692);
+    height: 2px;
+    width: 320px;
+    border-radius: 2px;
+    margin: auto;
+    top: 2px;       
+}
+@media only screen and (max-width: 320px) {
+    [class="band2"] {
+        width: 100%;
+    }
+}
+
+
+.bground{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.bground .img {
+    display: inline-block;
+}
+@media only screen and (min-width: 600px) {
+    [class="bground"] {
+        width: 100%;
+    }
+}
+
+
+.footercent {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    scroll-padding-bottom: 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+#header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+a:link {
+    color: rgba(16, 90, 2, 0.692);
+    text-decoration: none;
+} /* unvisited */
+
+a:hover {
+    color: rgb(37, 65, 139);
+}
+
+#icons {
+    height: 15px;
+}
+
+
+
+
+/* END OF MY STYLESHEET */
+
+
+
+
+/* NOT USING BEYOND THIS POINT */
+
+.content {
+    max-width: 500px; /* 960px is common - 500 is central for screens larger 
+    than 500, but the whole screen width on devices smaller than */
+    margin: auto; /* either side of the info */
+} /* this sets the content of the page in the center */
+
+.gbox {
+    margin-left: 50px;
+    margin-right: 50px;
+    place-items: center;
+    height: min-content;
+    max-width: 100%; /* makes the text flow underneath the image*/
+    background-color: white;
+    font: 14px arial;
+    border-radius: 5px;
+    color: black;
+}
+
+.footerleft {
+    float: left;    
+    margin-bottom: 2px;
+    padding-top: 0;
+    
+}
+
+.footerright {
+    float: right;
+    margin-bottom: 2px;
+    padding-top: 0;
+}
+
+.bkgrd {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    z-index: -2;
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.692);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box2 {
+    display: grid;
+    place-items: center;
+    background-color: rgba(124, 98, 51, 0.808);
+    border-radius: 5px;
+    font-size: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+.col-1 {width: 25%;}
+.col-2 {width: 0%;}
+.col-3 {width: 0%;}
+.col-4 {width: 41.66%;}
+.col-5 {width: 0%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 768px) {
+   [class="col-"] {
+       width: 100%;
+   }
+}
+
+/* 
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+*/
+
+
+
+/*
+ 
+ .botnav {
+    position: relative;
+    background-color:rgb(85, 61, 35);
+    overflow: hidden;
+    border-radius: 5px;
+ }
+ 
+ .botnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+ 
+ .botnav a:hover {
+    background-color: rgba(124, 98, 51, 0.808);
+    color: white;
+ }
+ 
+ .botnav a.active {
+    background-color: rgba(189, 151, 82, 0.808);
+    color: white;
+ }
+ 
+ .botnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+ }
+ 
+ .botnav-right {
+    float: right;
+    padding-bottom: 2px;
+ }
+  
+ @media screen and (max-width: 2000px) {
+    .botnav a, .botnav-right {
+        float: none;
+        display: block;
+    }
+    .botnav-centered a {
+        text-align: center;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+} 
+*/
