@@ -137,10 +137,26 @@ img {
 }
 @media only screen and (min-width: 600px) {
     [class="sticky"] {
-        font-size: 18px;
+        font-size: 16px;
+    }
+} /* not actualy sticky - never changed the name of the class */
+
+.sticky2 {
+    background-color: rgba(32, 71, 245, 0.904);
+    border-radius: 5px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 3px;
+    top: 0;       
+}
+@media only screen and (min-width: 600px) {
+    [class="sticky2"] {
+        font-size: 15px;
     }
 }
-
 
 .band {
     background-color: rgba(16, 90, 2, 0.692);
