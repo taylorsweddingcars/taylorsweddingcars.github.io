@@ -178,7 +178,7 @@ img {
 }
 @media only screen and (max-width: 320px) {
     [class="band2"] {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -215,7 +215,8 @@ img {
 
 #header {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 15px;
+    text-decoration: underline;
 }
 
 a:link {
@@ -235,7 +236,33 @@ a:hover {
     height: 20px;
 }
 
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+    [class="h1"] {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+}
 
+.h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+    [class="h2"] {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+}
 
 
 /* END OF MY STYLESHEET */
