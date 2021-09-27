@@ -46,7 +46,7 @@ body {
 }
 /* responsive navbar menu - display links on top of each other instead 
 of next to each other (for mobile devices) */
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 280px) {
     .topnav a, .topnav-right {
         float: none;
         display: block;
@@ -112,6 +112,35 @@ img {
     }
 }
 
+.box3 {
+    display: block;
+    place-items: center;
+    width: 500px;
+    margin: auto;
+    background-color:rgb(255, 251, 227);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin-top: 0;
+}
+@media only screen and (max-width: 700px) {
+    [class="box3"] {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    [class="box3"] {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 180px) {
+    [class="box3"] {
+        display: none;
+        content: none;
+    }
+}
+
 
 .footer2 {
     position: sticky;
@@ -124,6 +153,8 @@ img {
 }
 
 
+
+
 .sticky {
     background-color: rgba(16, 90, 2, 0.692);
     border-radius: 5px;
@@ -134,6 +165,11 @@ img {
     font-size: 12px;
     padding: 5px;
     top: 0;       
+}
+@media only screen and (max-width: 260px) {
+    [class="sticky"] {
+        width: 90%;
+    }
 }
 @media only screen and (min-width: 600px) {
     [class="sticky"] {
@@ -166,7 +202,11 @@ img {
     margin: auto;
     top: 2px;       
 }
-
+@media only screen and (max-width: 320px) {
+    [class="band"] {
+        width: 90%;
+    }
+}
 
 .band2 {
     background-color: rgba(16, 90, 2, 0.692);
@@ -229,11 +269,13 @@ a:hover {
 }
 
 #icons {
-    height: 15px;
+    height: 22px;
+    padding: 3px;
 }
 
 #icons2 {
-    height: 20px;
+    height: 25px;
+    padding: 3px;
 }
 
 .h1 {
