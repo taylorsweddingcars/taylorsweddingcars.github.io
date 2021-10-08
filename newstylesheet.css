@@ -145,7 +145,7 @@ img {
 .footer2 {
     position: sticky;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgba(16, 90, 2, 0.692);
     font-size: 12px;
     margin-bottom: 0;
     padding-top: 10px;
@@ -162,7 +162,7 @@ img {
     margin: auto;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px;
     top: 0;       
 }
@@ -191,6 +191,29 @@ img {
 @media only screen and (min-width: 600px) {
     [class="sticky2"] {
         font-size: 15px;
+    }
+}
+
+.sticky3 {
+    background-color: rgb(231, 126, 6);
+    border-radius: 20px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px;
+    top: 0;       
+}
+@media only screen and (max-width: 260px) {
+    [class="sticky"] {
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    [class="sticky"] {
+        font-size: 16px;
     }
 }
 
@@ -259,19 +282,16 @@ img {
     text-decoration: underline;
 }
 
-a:link {
-    color: rgba(16, 90, 2, 0.692);
+ 
+:link {
     text-decoration: none;
-} /* unvisited */
-
-a:hover {
-    color: rgb(37, 65, 139);
-}
+    color: rgba(16, 90, 2, 0.692);
+} 
 
 #icons {
     height: 22px;
     padding: 3px;
-}
+} 
 
 #icons2 {
     height: 25px;
